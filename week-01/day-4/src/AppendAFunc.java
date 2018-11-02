@@ -8,7 +8,6 @@ public class AppendAFunc {
         System.out.println(AppendAFunc(typo, append));
 
 
-
     }
 
 
