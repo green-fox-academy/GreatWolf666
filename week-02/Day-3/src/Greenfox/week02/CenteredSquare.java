@@ -1,24 +1,19 @@
 package Greenfox.week02;
+
 import javax.swing.*;
 
 import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class ColoredBox {
+public class CenteredSquare {
+
     public static void mainDraw(Graphics graphics) {
-        // Draw a box that has different colored lines on each edge.
-        graphics.setColor(Color.BLUE);
-        graphics.drawLine(50, 50, 150, 50);
+        // Draw a green 10x10 square to the canvas' center.
 
         graphics.setColor(Color.GREEN);
-        graphics.drawLine(50, 100, 150, 100);
-
-        graphics.setColor(Color.yellow);
-        graphics.drawLine(50, 100, 50, 50);
-
-        graphics.setColor(Color.MAGENTA);
-        graphics.drawLine(150, 100, 150, 50);
+//        graphics.drawRect(150,150, 10, 10);
+        graphics.fillRect(150,150, 10, 10);
     }
 
     // Don't touch the code below

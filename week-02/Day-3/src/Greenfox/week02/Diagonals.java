@@ -1,24 +1,17 @@
 package Greenfox.week02;
+
 import javax.swing.*;
 
 import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class ColoredBox {
+public class Diagonals {
     public static void mainDraw(Graphics graphics) {
-        // Draw a box that has different colored lines on each edge.
-        graphics.setColor(Color.BLUE);
-        graphics.drawLine(50, 50, 150, 50);
-
+        // Draw the canvas' diagonals.
+        // If it starts from the upper-left corner it should be green, otherwise it should be red.
         graphics.setColor(Color.GREEN);
-        graphics.drawLine(50, 100, 150, 100);
-
-        graphics.setColor(Color.yellow);
-        graphics.drawLine(50, 100, 50, 50);
-
-        graphics.setColor(Color.MAGENTA);
-        graphics.drawLine(150, 100, 150, 50);
+        graphics.drawLine(50, 50, 150,200);
     }
 
     // Don't touch the code below

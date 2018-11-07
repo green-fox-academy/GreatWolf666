@@ -1,24 +1,26 @@
 package Greenfox.week02;
+
 import javax.swing.*;
 
 import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class ColoredBox {
+public class HorizontalLines {
     public static void mainDraw(Graphics graphics) {
-        // Draw a box that has different colored lines on each edge.
-        graphics.setColor(Color.BLUE);
-        graphics.drawLine(50, 50, 150, 50);
+        // Create a line drawing function that takes 2 parameters:
+        // The x and y coordinates of the line's starting point
+        // and draws a 50 long horizontal line from that point.
+        // Draw 3 lines with that function. Use loop for that.
 
-        graphics.setColor(Color.GREEN);
-        graphics.drawLine(50, 100, 150, 100);
+        for (int i = 0; i < 150; i = i+50) {
+            DrawLines(graphics, i);
+        }
 
-        graphics.setColor(Color.yellow);
-        graphics.drawLine(50, 100, 50, 50);
+    }
 
-        graphics.setColor(Color.MAGENTA);
-        graphics.drawLine(150, 100, 150, 50);
+    private static void DrawLines(Graphics graphics, int i) {
+        graphics.drawLine(100, i, 150, i);
     }
 
     // Don't touch the code below
