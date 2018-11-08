@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd10a812-43f9-4736-af6b-f4013dd66c64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Day-3/src/Greenfox/week02/Checkerboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Day-3/src/Greenfox/week02/FunctionToCenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Day-3/src/Greenfox/week02/FourRectangles.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day-3/src/Greenfox/week02/FourRectangles.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,22 +23,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2785" />
+          <entry key="java" value="3412" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2785" />
+          <entry key="JAVA" value="3412" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
+          <entry key="java" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="14" />
         </counts>
       </usages-collector>
     </session>
@@ -63,84 +59,61 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Greenfox/week02/TakesLonger.java">
+        <entry file="file://$PROJECT_DIR$/src/Greenfox/week02/ElementFinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+            <state>
+              <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Greenfox/week02/Reverse.java">
+        <entry file="file://$PROJECT_DIR$/src/Greenfox/week02/IsInList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="255">
+              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Greenfox/week02/TodoPrint.java">
+        <entry file="file://$PROJECT_DIR$/src/Greenfox/week02/QuoteSwap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Greenfox/week02/SolarSystem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="204">
+              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#162#170#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Greenfox/week02/Matchmaking.java">
+        <entry file="file://$PROJECT_DIR$/src/Greenfox/week02/HeWillNever.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="289">
+              <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#228#236#0" expanded="true" />
-                <element signature="e#337#345#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Greenfox/week02/AppendLetter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Greenfox/week02/Candyshop.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-              <folding>
-                <element signature="e#167#175#0" expanded="true" />
+                <element signature="e#284#301#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Greenfox/week02/ElementFinder.java">
+        <entry file="file://$PROJECT_DIR$/src/Greenfox/week02/StudentCounter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#179#200#0" expanded="true" />
+                <element signature="e#294#310#0" expanded="true" />
+                <element signature="e#485#501#0" expanded="true" />
+                <element signature="e#672#688#0" expanded="true" />
+                <element signature="e#858#874#0" expanded="true" />
+                <element signature="e#1046#1062#0" expanded="true" />
+                <element signature="e#1233#1249#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -171,6 +144,10 @@
         <option value="$PROJECT_DIR$/src/Greenfox/week02/AppendLetter.java" />
         <option value="$PROJECT_DIR$/src/Greenfox/week02/Candyshop.java" />
         <option value="$PROJECT_DIR$/src/Greenfox/week02/ElementFinder.java" />
+        <option value="$PROJECT_DIR$/src/Greenfox/week02/IsInList.java" />
+        <option value="$PROJECT_DIR$/src/Greenfox/week02/QuoteSwap.java" />
+        <option value="$PROJECT_DIR$/src/Greenfox/week02/HeWillNever.java" />
+        <option value="$PROJECT_DIR$/src/Greenfox/week02/StudentCounter.java" />
       </list>
     </option>
   </component>
@@ -180,7 +157,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="width" value="1750" />
     <option name="height" value="1040" />
@@ -222,7 +199,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541674667219" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541684677156" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -240,20 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Candyshop">
-    <configuration name="AppendLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Greenfox.week02.AppendLetter" />
-      <module name="Day-2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Greenfox.week02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StudentCounter">
     <configuration name="Candyshop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Greenfox.week02.Candyshop" />
       <module name="Day-2" />
@@ -267,8 +231,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Matchmaking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Greenfox.week02.Matchmaking" />
+    <configuration name="HeWillNever" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Greenfox.week02.HeWillNever" />
       <module name="Day-2" />
       <extension name="coverage">
         <pattern>
@@ -280,8 +244,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolarSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Greenfox.week02.SolarSystem" />
+    <configuration name="IsInList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Greenfox.week02.IsInList" />
       <module name="Day-2" />
       <extension name="coverage">
         <pattern>
@@ -293,8 +257,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TakesLonger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Greenfox.week02.TakesLonger" />
+    <configuration name="QuoteSwap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Greenfox.week02.QuoteSwap" />
+      <module name="Day-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Greenfox.week02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Greenfox.week02.StudentCounter" />
       <module name="Day-2" />
       <extension name="coverage">
         <pattern>
@@ -307,19 +284,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SolarSystem" />
-      <item itemvalue="Application.Matchmaking" />
-      <item itemvalue="Application.TakesLonger" />
-      <item itemvalue="Application.AppendLetter" />
       <item itemvalue="Application.Candyshop" />
+      <item itemvalue="Application.IsInList" />
+      <item itemvalue="Application.QuoteSwap" />
+      <item itemvalue="Application.HeWillNever" />
+      <item itemvalue="Application.StudentCounter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentCounter" />
+        <item itemvalue="Application.QuoteSwap" />
+        <item itemvalue="Application.HeWillNever" />
+        <item itemvalue="Application.IsInList" />
         <item itemvalue="Application.Candyshop" />
-        <item itemvalue="Application.AppendLetter" />
-        <item itemvalue="Application.TakesLonger" />
-        <item itemvalue="Application.Matchmaking" />
-        <item itemvalue="Application.SolarSystem" />
       </list>
     </recent_temporary>
   </component>
@@ -334,12 +311,12 @@
       <option name="presentableId" value="Default" />
       <updated>1541503022085</updated>
       <workItem from="1541503023652" duration="16057000" />
-      <workItem from="1541670285758" duration="4040000" />
+      <workItem from="1541670285758" duration="9975000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20097000" />
+    <option name="totallyTimeSpent" value="26032000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -490,7 +467,7 @@
     <entry file="file://$PROJECT_DIR$/src/Greenfox/week02/Candyshop.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding>
             <element signature="e#167#175#0" expanded="true" />
           </folding>
@@ -499,8 +476,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Greenfox/week02/ElementFinder.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greenfox/week02/IsInList.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greenfox/week02/QuoteSwap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <folding>
+            <element signature="e#162#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greenfox/week02/HeWillNever.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+          <folding>
+            <element signature="e#284#301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greenfox/week02/StudentCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#179#200#0" expanded="true" />
+            <element signature="e#294#310#0" expanded="true" />
+            <element signature="e#485#501#0" expanded="true" />
+            <element signature="e#672#688#0" expanded="true" />
+            <element signature="e#858#874#0" expanded="true" />
+            <element signature="e#1046#1062#0" expanded="true" />
+            <element signature="e#1233#1249#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
