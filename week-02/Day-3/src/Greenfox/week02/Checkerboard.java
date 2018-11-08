@@ -6,23 +6,28 @@ import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class FourRectangles {
-
+public class Checkerboard {
     public static void mainDraw(Graphics graphics) {
-        // draw four different size and color rectangles.
-        // avoid code duplication.
+        // Fill the canvas with a checkerboard pattern.
+        int x = 10;
+        int y = 10;
+        int size = 50;
 
-        for (int i = 0; i < 4; i++) {
-            int a = (int) (Math.random() * 321);
-            int b = (int) (Math.random() * 321);
-            int c = (int) (Math.random() * 256);
+        for (int i = 0; i < 8; i++) {
+            for (int j = 0; j < 8; j++) {
+                if (i % 2 == 0 ^ j % 2 == 0) {
+                    graphics.setColor(Color.WHITE);
+                } else {
+                    graphics.setColor(Color.BLACK);
+                }
 
-            graphics.setColor(new Color(c, c, c));
-            graphics.drawRect(a, b, 10 + (int) (Math.random() * (311 - a)), 10 + (int) (Math.random() * (311 - b)));
+                graphics.fillRect(x, y, size, size);
+                x += size;
+            }
+            x = 10;
+            y += size;
         }
-
     }
-
     // Don't touch the code below
     static int WIDTH = 320;
     static int HEIGHT = 320;

@@ -6,22 +6,22 @@ import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class FourRectangles {
-
+public class PurpleSteps3d {
     public static void mainDraw(Graphics graphics) {
-        // draw four different size and color rectangles.
-        // avoid code duplication.
-
-        for (int i = 0; i < 4; i++) {
-            int a = (int) (Math.random() * 321);
-            int b = (int) (Math.random() * 321);
-            int c = (int) (Math.random() * 256);
-
-            graphics.setColor(new Color(c, c, c));
-            graphics.drawRect(a, b, 10 + (int) (Math.random() * (311 - a)), 10 + (int) (Math.random() * (311 - b)));
+        // Reproduce this:
+        // [https://github.com/green-fox-academy/teaching-materials/blob/master/workshop/drawing/purple-steps-3d/r4.png]
+        for (int i = 0; i < 200; i += 15) {
+            int a = i;
+            draw3DRect(graphics, a);
         }
-
     }
+    public static void draw3DRect(Graphics graphics, int a) {
+        graphics.setColor(new Color(153, 50, 204));
+        graphics.fillRect(15 + a, 15 + a, 15, 15);
+        graphics.setColor(Color.BLACK);
+        graphics.drawRect(15 + a, 15 + a, 15, 15);
+    }
+
 
     // Don't touch the code below
     static int WIDTH = 320;
