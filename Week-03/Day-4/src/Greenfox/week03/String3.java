@@ -6,9 +6,10 @@ public class String3 {
     System.out.println(adjacentR(input, input.length()));
 
   }
-  public static String adjacentR(String input, int length){
+
+  public static String adjacentR(String input, int length) {
     if (length > 1) {
-      input = input.substring(0, length - 1) + "*" + input.substring(length-1);
+      input = input.substring(0, length - 1) + "*" + input.substring(length - 1);
       return adjacentR(input, length - 1);
     }
     return input;
