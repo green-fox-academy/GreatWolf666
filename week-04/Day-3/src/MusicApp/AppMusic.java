@@ -1,5 +1,9 @@
 package MusicApp;
 
+import MusicApp.Instruments.BassGuitar;
+import MusicApp.Instruments.ElectricGuitar;
+import MusicApp.Instruments.Violin;
+
 public class AppMusic {
   public static void main(String[] args) {
 
@@ -20,4 +24,5 @@ public class AppMusic {
     System.out.println("Test 2 Play");
     guitar2.play();
     bassGuitar2.play();
+}
 }

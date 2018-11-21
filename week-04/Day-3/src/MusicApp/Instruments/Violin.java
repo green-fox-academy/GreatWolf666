@@ -12,7 +12,8 @@ public class Violin extends StringedInstrument {
 
   }
   public String sound(){
-    
+    return "Screech";
+
   }
 
 }
