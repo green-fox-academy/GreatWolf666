@@ -18,7 +18,7 @@ public class DiworkshopApplication {
     private final Printer printer = new Printer();
     @Override
     public void run(String...args) throws Exception{
-      printer.log("Hello, I do appear to be working");
+      printer.log("Doesn't work");
     }
   }
 
