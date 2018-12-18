@@ -17,7 +17,10 @@ public class ExercisetwoApplication implements CommandLineRunner {
 
   @Override
   public void run(String... args) throws Exception {
-    // repository.save(new Todo("hello"));
+     repository.save(new Todo("Do the dishes", true, false));
+     repository.save(new Todo("Take out the trash", true, true));
+     repository.save(new Todo("Get wife a present", false, true));
+     repository.save(new Todo("Drink beer", false, false));
   }
 }
 
