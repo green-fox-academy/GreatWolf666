@@ -55,13 +55,4 @@ public class TodoService {
     return todoRepository.findById(id).get();
   }
 
-  public void editTodoList(long id, String newTitle, boolean urgent, boolean done){
-    if (newTitle != null){
-      getTodo(id).setTitle(newTitle);
-      getTodo(id).setUrgent(urgent);
-      getTodo(id).setDone(done);
-      todoRepository.save(getTodo(id));
-    }
-  }
-
 }
