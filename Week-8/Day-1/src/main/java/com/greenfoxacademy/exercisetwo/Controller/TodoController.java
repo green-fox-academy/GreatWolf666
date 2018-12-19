@@ -49,6 +49,10 @@ public class TodoController {
     return "redirect:/todo/";
 
   }
+  @GetMapping(value = "/{id}/edit")
+  public String update(@PathVariable long id){
+    service.editTodoList();
+  }
 
 }
 
