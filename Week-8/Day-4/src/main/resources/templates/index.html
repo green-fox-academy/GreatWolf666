@@ -10,13 +10,14 @@
 </head>
 <body>
     <div layout:fragment="content">
+        <a th:href="@{addnewpost}">Add new Post</a>
         <h1>Trending Posts</h1>
         <table th:if="${posts.size() > 0}">
             <tr th:each="post : ${posts}">
                 <td th:text="${post.vote}">1</td>
                 <td>+</td>
                 <td>-</td>
-                <td th:text="${post.title}">Post title</td>
+                <td><a th:href="@{/post/{postId}/(postId=${post.postId})}" th:text="${post.title}">Show post</a></td>
             </tr>
         </table>
         <div th:if="${posts.size() == 0}">No posts found shithead</div>

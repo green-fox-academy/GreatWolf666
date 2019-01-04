@@ -15,9 +15,10 @@ public class Post {
   private String title;
 
   private String content;
-  
-  private long user_id;
 
+  @Column(nullable = true)
+  private long user_id;
+  @Column(nullable = true)
   private int vote;
 
 
