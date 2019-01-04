@@ -2,18 +2,22 @@ package com.greenfoxacademy.redditproject.model;
 
 import java.util.Date;
 import javax.persistence.*;
+import javax.validation.constraints.Null;
 
 
 @Entity
 public class Post {
 
   @Id
-  @GeneratedValue(strategy = GenerationType.AUTO)
-  private long user_id;
-  private String title;
-  private String content;
-  private String url;
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
   private long postId;
+
+  private String title;
+
+  private String content;
+  
+  private long user_id;
+
   private int vote;
 
 
@@ -48,20 +52,24 @@ public class Post {
     this.title = title;
   }
 
-  public String getUrl() {
-    return url;
-  }
-
-  public void setUrl(String url) {
-    this.url = url;
-  }
-
   public Date getDate() {
     return date;
   }
 
   public void setDate(Date date) {
     this.date = date;
+  }
+  public String getContent(){
+    return content;
+  }
+  public void setContent(String content){
+    this.content = content;
+  }
+  public void setUser_id(long user_id){
+    this.user_id = user_id;
+  }
+  public long getUser_id(){
+    return user_id;
   }
 }
 

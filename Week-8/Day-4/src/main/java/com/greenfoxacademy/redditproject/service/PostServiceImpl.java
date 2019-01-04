@@ -31,7 +31,6 @@ public class PostServiceImpl implements PostService {
     return repository.findById(id).orElse(null);
   }
 
-  @Override
   public void addPost(Post post) {
     post.setDate(new Date());
     repository.save(post);
