@@ -1,10 +1,9 @@
 package com.greenfoxacademy.week10.Controller;
 
+import com.greenfoxacademy.week10.Model.JsonObject;
 import com.greenfoxacademy.week10.Service.MethodService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class JSONController {
@@ -21,5 +20,20 @@ public class JSONController {
       return methodService.getDouble(inputNumber);
     }
 
+    @GetMapping("/greeter")
+  public Object greeter(@RequestParam(name = "name", required = false) String name,
+                          @RequestParam(name = "title", required = false) String title){
+      return methodService.getGreeter(name, title);
+    }
+    @GetMapping("/appenda/{appendable}")
+  public Object appendA (@PathVariable String appendable){
+      return methodService.addA(appendable);
+    }
+
+    @PostMapping("/dountil/{action}")
+  public Object doUntil(@PathVariable String action,
+                        @RequestBody JsonObject until){
+      return methodService.doUntil(action, until.getUntil());
+    }
 }
 
