@@ -22,12 +22,13 @@ public class UrlAliasServiceImpl implements URLaliasService {
 
   @Override
   public void addAlias(URLalias alias) {
-
+    alias.setSecretCode(randomFourDigitLong());
+    urlAliasRepository.save(alias);
   }
 
   @Override
   public void deleteById(Long id) {
-
+    urlAliasRepository.deleteById(id);
   }
 
   public boolean existsAliasByAliasName(String aliasName) {
