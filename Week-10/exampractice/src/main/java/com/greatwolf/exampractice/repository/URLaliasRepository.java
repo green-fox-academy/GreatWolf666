@@ -12,13 +12,15 @@ import javax.transaction.Transactional;
 @Repository
 public interface URLaliasRepository extends CrudRepository<URLalias, Long> {
 
-    boolean existsURLaliasByAliasName(String aliasName);
-    URLalias findAliasByAliasName(String aliasName);
-    void deleteByID (long id);
+  boolean existsURLaliasByAliasName(String aliasName);
+
+  URLalias findAliasByAliasName(String aliasName);
+
+  void deleteById(long id);
 
 
-    @Modifying
-    @Transactional
-    @Query(value = "update alias a SET a.hit_count = a.hit_count + 1 WHERE a.id = :id", nativeQuery = true)
+  @Modifying
+  @Transactional
+  @Query(value = "update alias a SET a.hit_count = a.hit_count + 1 WHERE a.id = :id", nativeQuery = true)
   void incHitCount(@Param("id") Long id);
 }

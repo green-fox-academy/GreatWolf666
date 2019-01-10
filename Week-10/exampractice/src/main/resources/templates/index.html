@@ -6,19 +6,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Url Aliaser</title>
 </head>
 <body>
-<div layout:fragmen="content">
-    <form th:method="POST" th:action="@{}" th:object="${newUrl}">
-        <div class="form-group">
-        <label>URL</label>
-            <input class="form-control" name="URL" th:field="*{}">
-            <label>Alias</label>
-            <input class="form-control" name="Alias" th:field="*{alias}">
+<div class="message">
+    <p th:text="${error}" th:style="'color:red'"></p>
+    <p th:if="${code != 'empty' && error != 'Alias has been already taken!'}">
+        Your URL is aliased to
+        <b th:text="${name}"></b>
+        and your secret code is
+        <b th:text="${code}"></b>
+    </p>
+</div>
+<div class="container">
+    <form th:object="${newAlias}" method="post" action="/save-link">
+        <div>
+            <label for="url">URL:
+                <input id="url" type="text" name="url" th:value="*{url}">
+            </label>
         </div>
-        <button type="submit" class="btn btn-primary">
-            Submit
-        </button>
+        <div>
+            <label for="aliasName">Alias:
+                <input id="aliasName" type="text" name="aliasName" th:value="*{aliasName}">
+            </label>
+        </div>
+        <button type="submit">Submit</button>
     </form>
 </div>
 </body>

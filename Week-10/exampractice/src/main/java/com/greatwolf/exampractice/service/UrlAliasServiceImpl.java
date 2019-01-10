@@ -7,6 +7,9 @@ import com.greatwolf.exampractice.repository.URLaliasRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static com.greatwolf.exampractice.service.RNG.randomFourDigitLong;
 
 @Service
@@ -44,5 +47,13 @@ public class UrlAliasServiceImpl implements URLaliasService {
   }
   public AliasDto transformAlias(URLalias urLalias){
     return new AliasDto(urLalias.getId(), urLalias.getUrl(), urLalias.getAliasName(), urLalias.getHitCount());
+  }
+
+  public List<AliasDto> aliasDtos(){
+    List<AliasDto> aliasDtos = new ArrayList<>();
+    for (URLalias urlAlias: urlAliasRepository.findAll()){
+      aliasDtos.add(transformAlias(urlAlias));
+    }
+    return aliasDtos;
   }
 }
