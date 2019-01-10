@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorator="default">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+<div layout:fragmen="content">
+    <form th:method="POST" th:action="@{}" th:object="${newUrl}">
+        <div class="form-group">
+        <label>URL</label>
+            <input class="form-control" name="URL" th:field="*{}">
+            <label>Alias</label>
+            <input class="form-control" name="Alias" th:field="*{alias}">
+        </div>
+        <button type="submit" class="btn btn-primary">
+            Submit
+        </button>
+    </form>
+</div>
+</body>
+</html>
